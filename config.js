@@ -4,11 +4,11 @@
 
 module.exports = {
     // Bot Owner Configuration
-    ownerNumber: ['91xxxxxxxxxxx','917023951514'], // Add your number without + or spaces (e.g., 919876543210)
-    ownerName: ['Knight Bot Mini', 'Professor'], // Owner names corresponding to ownerNumber array
+    ownerNumber: ['254705677688'], // Add your number without + or spaces (e.g., 919876543210)
+    ownerName: ['YEGO', 'Professor'], // Owner names corresponding to ownerNumber array
     
     // Bot Configuration
-    botName: 'Knight Bot Mini',
+    botName: 'YEGO',
     prefix: '.',
     sessionName: 'session',
     sessionID: process.env.SESSION_ID || '',
@@ -20,7 +20,7 @@ module.exports = {
     
     // Bot Behavior
     selfMode: false, // Private mode - only owner can use commands
-    autoRead: false,
+    autoRead: true,
     autoTyping: false,
     autoBio: false,
     autoSticker: false,
